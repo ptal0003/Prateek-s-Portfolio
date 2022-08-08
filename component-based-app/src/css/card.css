@@ -1,0 +1,13 @@
+.card-container{    
+    border-radius: 5px;
+    background-color: rgba(57, 61, 67, 0.859);
+    width: 200px;
+    margin: 30px;
+    
+}
+.card-header-text{
+    font-size: medium;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    
+}

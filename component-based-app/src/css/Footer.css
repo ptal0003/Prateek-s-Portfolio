@@ -1,0 +1,11 @@
+.nav-footer{
+    background-color: rgba(13, 17, 23, 0.759);
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-image{
+    height: 10vh;
+    margin: 10px
+}

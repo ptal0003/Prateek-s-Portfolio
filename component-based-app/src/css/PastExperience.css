@@ -1,0 +1,9 @@
+.page-flex-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20vh;
+}
+.page-content{
+    display: grid;
+    width: 45%;
+  }

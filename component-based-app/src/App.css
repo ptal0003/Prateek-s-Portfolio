@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  background-color: rgb(35, 39, 43);
+  height: 100%;
+}
+.card-list-container{
+  display: flex;
+
+}
+.image-slider{
+  margin-top: 2%;
+  width: 70%;
+  height: 345px
+}
+.alice-carousel__prev-btn{
+  visibility: hidden;
+}
+.alice-carousel__next-btn{
+  visibility: hidden;
+}
+.section-header{
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  justify-content: center;
+}
+.section-paragraph{
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  font-size: medium;
+  margin: 0px 70px 20px 70px;
+}
+

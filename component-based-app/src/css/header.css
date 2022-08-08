@@ -1,0 +1,38 @@
+.header-container{
+    background-color: rgba(13, 17, 23, 0.759);
+    color: rgb(255, 255, 255);
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width:50%;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.links{
+    color: white;
+    text-decoration: none;
+}
+.header-links{
+    color: white;
+    text-decoration: none;
+}
+.header-links:hover{
+    color:black
+}
+.links:hover{
+    color:cornflowerblue;
+}
+
+#header-text{
+    text-align:left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    border: 10px
+}
