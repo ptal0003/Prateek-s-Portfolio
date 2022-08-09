@@ -3,7 +3,6 @@ import '../App.css'
 import all_images from '../assets/images/all_images.js'
 import '../css/PastExperience.css'
 
-export default PastExperiences
 const PastExperiences = () => {
   return (
     <div className='section-header'>
@@ -42,3 +41,5 @@ const PastExperiences = () => {
     
   )
 }
+
+export default PastExperiences
