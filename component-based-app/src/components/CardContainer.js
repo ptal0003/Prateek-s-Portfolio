@@ -2,6 +2,7 @@ import RectangularButton from "./RectangularButton";
 import '../css/card.css'
 import RadioButton from "./RadioButton";
 import { useState } from "react";
+import React from "react";
 function Card({all_questions,question}){
     let [selected_answer,setSelectedAnswer] = useState('')
     let [headerText, setHeaderText] = useState('')
