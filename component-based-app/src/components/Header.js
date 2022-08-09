@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/header.css"
 import {Link} from 'react-router-dom'
-function Header(props){
+const Header = (props) => {
 return(<nav className="header-container">
     <Link to = "/" className="header-links" >
         <h3 id="header-text">{props.heading}</h3>

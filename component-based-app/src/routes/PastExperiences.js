@@ -3,7 +3,8 @@ import '../App.css'
 import all_images from '../assets/images/all_images.js'
 import '../css/PastExperience.css'
 
-export default function PastExperiences() {
+export default PastExperiences
+const PastExperiences = () => {
   return (
     <div className='section-header'>
     <h1>Past Experiences</h1>

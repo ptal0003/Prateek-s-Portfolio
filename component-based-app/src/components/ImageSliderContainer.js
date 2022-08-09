@@ -3,7 +3,8 @@ import React from 'react'
 import AliceCarousel from 'react-alice-carousel';
 
 import "react-alice-carousel/lib/alice-carousel.css";
-export default function ImageSliderContainer(props) {
+ 
+const ImageSliderContainer = (props) => {
   
   return (
     <AliceCarousel autoPlay = {true}>
@@ -11,3 +12,4 @@ export default function ImageSliderContainer(props) {
     </AliceCarousel>
   )
 }
+export default ImageSliderContainer

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css'
-export default function AboutMe() {
+const AboutMe = () =>{
   return (
     <div>
       <h1 className='section-header'>About Me</h1>
@@ -18,4 +18,4 @@ export default function AboutMe() {
     
   )
 }
-
+export default AboutMe

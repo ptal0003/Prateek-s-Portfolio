@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./CardContainer"
 import "../css/CardList.css"
 
-function CardList({questions})
+const CardList = ({questions}) =>
 {
     return(
         <div>

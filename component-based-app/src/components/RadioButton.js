@@ -1,5 +1,5 @@
 import React from "react";
-function RadioButton(props){
+const RadioButton = (props) => {
 return( 
 <div>
 <input type="radio" value={props.value} name={props.name} onChange = {props.onChange} /> {props.value}

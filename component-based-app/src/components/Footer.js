@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/Footer.css'
 import all_images from '../assets/images/all_images'
-export default function Footer() {
+const Footer = () => {
   return (
     <nav className='nav-footer'>
         <a href='https://www.linkedin.com/in/prateek-talukdar-870833167'>
@@ -15,3 +15,4 @@ export default function Footer() {
     </nav>
   )
 }
+export default Footer
