@@ -3,19 +3,18 @@ import '../css/card.css'
 import RadioButton from "./RadioButton";
 import { useState } from "react";
 import React from "react";
+import data from "../assets/text-data/text.json";
 const Card = ({all_questions,question}) =>{
     let [selected_answer,setSelectedAnswer] = useState('')
-    let [headerText, setHeaderText] = useState('')
     function checkAnswer(event){
         var id = event.target.id
         var word_split = id.split("_")
         var question_index = word_split[1]
         if (all_questions[question_index].answer == selected_answer){
-            console.log("Correct Answer")
-            window.alert("Correct answer, congratulations!")
+            window.alert(data.prompts.correct)
         }
         else{
-            window.alert("Wrong answer, please try again!")
+            window.alert(data.prompts.incorrect)
         }
     }
 const updateSite = (e) =>{ 

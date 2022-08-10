@@ -9,14 +9,11 @@ import PastExperiences from './routes/PastExperiences';
 import Footer from './components/Footer';
 import React from 'react';
 const required_images = [all_images.img1,all_images.img2,all_images.img3,all_images.img4]
-
-var questions = [{question: "Who is the president of the US?", options: ["George W Bush", "Barack Obama", "Donald Trump", "Joe Biden"],answer: "Joe Biden"},{question: "What is EY?", options: ["A consultancy","A mining company", "Coffee Shop", "University"], answer: "A consultancy" }]
-
 function App() {
   return (
     <Router>
       <div className='App'>
-
+        
         <Header heading = "Prateek Talukdar"></Header>
         
         <Routes>
@@ -34,7 +31,7 @@ function App() {
             }/>
             <Route path = "/past-experiences" element = {<PastExperiences/>}/>
             <Route path = "/know-me-better" element = {<div className = "card-list-container">
-          <CardList questions = {questions}></CardList>
+          <CardList></CardList>
         </div>}/>
              
         </Routes>

@@ -1,0 +1,7 @@
+{
+    "url":{"facebook": "https://www.facebook.com/prateek.talukdar", "instagram": "https://www.instagram.com/prateektalukdar/", "linkedIn": "https://www.linkedin.com/in/prateek-talukdar-870833167"},
+    "heading":{},
+    "paragraph": {},
+    "link": {"aboutMe": "About Me", "past_experiences": "Past Experiences", "know_me_better": "Know Me Better"},
+    "prompts": {"correct": "Correct answer, congratulations!" , "incorrect": "Wrong answer, please try again!"}
+}

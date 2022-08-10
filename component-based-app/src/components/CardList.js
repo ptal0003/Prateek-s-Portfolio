@@ -14,7 +14,7 @@ const CardList = () =>
             setQuestions(data.docs.map((doc) => ({...doc.data()})))
         }
         getQuestions()
-    })
+    },[])
     return(
         <div>
             <div className="card-list-container-div">
